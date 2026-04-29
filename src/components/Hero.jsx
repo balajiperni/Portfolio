@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import { Link } from 'react-scroll'
 import { FiArrowDown, FiGithub, FiLinkedin } from 'react-icons/fi'
+import profile from "../assets/images/profile.png";
 
 export default function Hero() {
   return (
@@ -150,7 +151,7 @@ export default function Hero() {
           <div className="w-full h-full rounded-full overflow-hidden bg-gray-900 flex items-center justify-center">
             {/* Replace with your actual photo path */}
             <img 
-              src="/src/assets/images/profile.png" 
+              src={profile} 
               alt="Balaji Perni" 
               className="w-full h-full object-cover"
             />
